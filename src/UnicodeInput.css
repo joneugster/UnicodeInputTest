@@ -1,3 +1,28 @@
-.unicode-input {
-  border: 1px solid red;
+#root {
+  --color-primary: red;
+  --color-lightGrey: lightgrey;
 }
+
+/* Browser fix for unicode editing */
+.textinput {
+  /* white-space: pre; */
+  white-space: -moz-pre-space;
+}
+
+/* Copied from chota for textinput */
+.textinput {
+    font-family: inherit;
+    padding: 0.8rem 1rem;
+    border-radius: 4px;
+    border: 1px solid var(--color-lightGrey);
+    font-size: 1em;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    display: block;
+    width: 100%;
+  }
+.textinput:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 1px var(--color-primary);
+  }
