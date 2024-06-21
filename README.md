@@ -1,8 +1,10 @@
-# React + Vite
+# React + Vite + Lean4 Unicode Input
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a test repo to try out the npm package [@leanprover/unicode-input-component](https://www.npmjs.com/package/@leanprover/unicode-input-component
 
-Currently, two official plugins are available:
+## Setup
+Clone the repo, call `npm install` followed by `npm run dev`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Problems
+
+On spamming inputs and replacements (i.e. type `\u\l\u\l\u\l`) the cursor jumps back to the front at various steps.
