@@ -1,6 +1,6 @@
 # React + Vite + Lean4 Unicode Input
 
-This is a test repo to try out the npm package [@leanprover/unicode-input-component](https://www.npmjs.com/package/@leanprover/unicode-input-component
+This is a test repo to try out the npm package [@leanprover/unicode-input-component](https://www.npmjs.com/package/@leanprover/unicode-input-component)
 
 ## Setup
 Clone the repo, call `npm install` followed by `npm run dev`.
